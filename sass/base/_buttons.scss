@@ -1,0 +1,110 @@
+.btn {
+   width: 190px;
+   height: 42px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-transform: uppercase;
+   font-family: $task-btn-font-family;
+   font-size: $land-btn-font-size;
+   font-weight: 700;
+   line-height: 18px;
+   letter-spacing: 0.1em;
+   border-radius: 20px;
+   transition: 0.2s all;
+}
+
+.btn-iq {
+   color: $land-btn-text-color;
+   background: $land-btn-color;
+   border: 1px solid white;
+}
+
+.btn-iq:hover,
+.btn-iq:focus {
+   background-color: $land-btn-color-hover;
+   color: black;
+   border: none;
+}
+
+.btn-end-start {
+   width: 250px;
+   height: 42px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-transform: uppercase;
+   font-family: $task-btn-font-family;
+   color: $land-btn-text-color;
+   font-size: $land-btn-font-size;
+   font-weight: 700;
+   line-height: 18px;
+   letter-spacing: 0.1em;
+   background: $land-btn-color;
+   border-radius: 20px;
+   border: 1px solid white;
+   transition: 0.2s all;
+}
+
+.btn-end-start:hover,
+.btn-end-start:focus {
+   background-color: $land-btn-color-hover;
+   color: black;
+   border: none;
+}
+
+.btn-more {
+   width: 68px;
+   height: 32px;
+   background-color: none;
+   border-radius: 5px;
+   transition: 0.2s all;
+}
+
+.btn-more:hover,
+.btn-more:focus {
+   background-color: $land-btn-color-hover;
+}
+
+.btn-advice {
+   color: $land-btn-text-color-second;
+   background: $land-btn-color;
+   border: 1px solid $land-btn-text-color-second;
+}
+
+.btn-advice:hover,
+.btn-advice:focus {
+   background-color: $land-btn-color-hover;
+   border: none;
+}
+
+.btn-task {
+   width: 190px;
+   height: 42px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-transform: uppercase;
+   font-family: $task-btn-font-family;
+   font-size: $task-btn-font-size;
+   color: $task-btn-text-color;
+   background: $task-btn-color;
+   box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   transition: 0.2s all;
+}
+
+.btn-task:hover,
+.btn-task:focus {
+   background-color: $task-btn-color-hover;
+}
+
+.btn-test-end {
+   width: 290px;
+   height: 92px;
+   background-color: #EB1B00;
+   border-radius: 5px;
+   transition: 0.2s all;
+}
+
+.btn-test-end:hover,
+.btn-test-end:focus {
+   background-color: #da1c03;
+}

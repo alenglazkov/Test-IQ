@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> -->
+   <title>Психологический тест</title>
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+   <div class="container">
+      <header class="header">
+         <div class="header__wrap">
+     
+           <nav class="nav">
+             <div class="header__burger burger">
+               <span class="burger__line burger__line_first"></span>
+               <span class="burger__line burger__line_second"></span>
+               <span class="burger__line burger__line_third"></span>
+             </div>
+     
+             <ul class="menu">
+               <div class="header__nav-ico-close">
+                 <span class="header__nav-ico-close_line"></span>
+                 <span class="header__nav-ico-close_line"></span>
+               </div>
+               <li class="menu__list">
+                 <a href="#home" class="menu__link js-scroll">Главная</a>
+               </li>
+               <li class="menu__list">
+                 <a href="#info" class="menu__link js-scroll">Информация о тесте</a>
+               </li>
+               <li class="menu__list">
+                  <a href="#test" class="menu__link js-scroll">Пройти тест</a>
+               </li>
+             </ul>
+             <a href="#!" class="logo">
+               <img src="./images/logo-mind.svg" alt="logo iq">
+             </a>
+             <a href="#!" class="text">
+               <p class="header__text"></p>
+             </a>
+     
+           </nav>
+     
+         </div>
+       </header>
+      <main>
+         <section class="landing">
+            <div class="landing__test-iq"  id="home">
+               <div class="landing__wrap">
+                  <p class="landing__up-title">
+                     Пройдите точный и быстрый
+                  </p>
+                  <h1 class="landing__title"> Тест на определение IQ</h1>
+                  <div class="landing__pic-iq">
+                     <img src="./images/mind.jpg" alt="mind" class="landing__pic">
+                  </div>
+                  <button class="landing__btn btn btn-iq">Пройти тест</button>
+                  <p class="landing__text">
+                     <span class="landing__text_yellow">
+                        И получите рекомендации по развитию своего интеллекта
+                     </span>
+                     <span class="landing__text_white">
+                        и улучшению финансового благосостояния и личной жизни
+                     </span>
+                  </p>
+                  <div class="landing__btn-more btn-more">
+                     <!-- <button class="btn-more js-scroll"> -->
+                        <a href="#info" class="btn-more js-scroll">
+                        <span class="landing__btn-more-text">Подробнее</span>
+                     </a>
+                     <!-- </button> -->
+                  </div>
+               </div>
+            </div>
+            <article class="landing__note" id="info">
+               <div class="landing__wrap">
+                  <img src="" alt="" class="landing__note-pic">
+                  <p class="landing__note-text">
+                     <span class="landing__note-quotes_left">“</span>
+                     Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта,
+                     но и выработать список рекомендаций для повышения этого показателя.
+                     <span class="landing__note-quotes_right">„</span>
+                  </p>
+                  <img src="" alt="" class="landing__note-pic">
+               </div>
+            </article>
+            <div class="landing__advice">
+               <div class="landing__wrap-plus">
+                  <p class="landing__advice-text">
+                     Также по результатам теста
+                     <span class="landing__advice-text_bold-up">вы получите</span>
+                     подробные
+                     <span class="landing__advice-text_bold-up">советы</span>
+                     по определению наиболее перспективной
+                     <span class="landing__advice-text_bold-up">для вашего типа</span>
+                     <span class="landing__advice-text_bold">интеллекта</span>
+                     <span class="landing__advice-text_bold-up">сферы деятельности</span>,
+                     которая принесет вам скорейший финансовый результат.
+                  </p>
+                  <img src="./images/325-01.png" alt="" class="landing__advice-pic">
+                  <button class="landing__advice-btn btn btn-advice">Пройти тест</button>
+               </div>
+            </div>
+            <div class="landing__go">
+               <div class="landing__wrap-plus">
+                  <p class="landing__go-text" id="test">
+                     Прохождение теста займет у вас не более
+                     <span class="landing__go-text_bold-yellow">12 минут</span>
+                     , а его
+                     <span class="landing__go-text_bold">результаты</span>
+                     вы сможете
+                     <span class="landing__go-text_bold-yellow">использовать всю жизнь.
+                  </p>
+                  <div class="landing__go-note">
+                     <p class="landing__go-note-text">
+                        Профессиональная интерпретация и детально
+                        <span class="landing__go-text_bold">проработанные рекомендации</span>
+                        позволят вам качественно
+                        <span class="landing__go-text_bold">изменить все аспекты своей жизни:</span>
+                        от финансового до любовного.
+                     </p>
+                  </div>
+                  <button class="landing__go-btn btn btn-iq">Пройти тест</button>
+               </div>
+            </div>
+         </section>
+         <section class="task block-hidden">
+            <div class="task__wrap">
+               <!-- <div class="task__progress"> -->
+               <progress class="styled" max="100" value="0"></progress>
+               <!-- </div> -->
+               <p class="task__task-text"></p>
+               <div class="task__img"></div>
+               <div class="task__answers"></div>
+               <div class="task__pic-number"></div>
+               <div class="task__pic"></div>
+               <div class="task__btn"></div>
+            </div>
+         </section>
+         <section class="results block-hidden">
+            <div class="results__wrap">
+               <progress class="styled" max="100" value="100"></progress>
+               <p class="results__header">Oбработка результатов</p>
+               <img src="./images/loader.svg" alt="loader">
+            </div>
+            <div class="results__handler-wrap">
+               <p class="results__handler"></p>
+               <p class="results__progress"></p>
+            </div>
+         </section>
+         <section class="test-end block-hidden">
+            <div class="test-end__wrap">
+               <p class="test-end__title-resulte">
+                  Ваш результат рассчитан:
+               </p>
+               <p class="test-end__text">
+                  Вы относитесь к 3% респондентов, чей уровень интеллекта более чем на
+                  15 пунктов отличается от среднего в большую или меньшую сторону!
+               </p>
+               <p class="test-end__title-fast">
+                  Скорее получите свой результат!
+               </p>
+               <div class="test-end__person-data">
+                  <p class="test-end__person-data-text">
+                     В целях защиты персональных
+                     данных результат теста, их подробная интерпретация и рекомендации доступны
+                     в виде голосового сообщения по звонку с вашего мобильного телефона
+                  </p>
+               </div>
+               <div class="test-end__timer">
+                  <p class="test-end__timer-text">
+                     Звоните скорее, запись доступна всего
+                  </p>
+                  <p class="test-end__timer-text">
+                     <span class="test-end__time timer"></span>
+                  </p>
+               </div>
+               <div class="test-end__btn">
+                  <button class="btn-test-end">
+                     <span class="test-end__btn-text">
+                        Позвонить и прослушать результат
+                     </span>
+                  </button>
+               </div>
+               <div class="test-end__btn-start block-hidden">
+                  <button class="btn-end-start"> 
+                        Пройти тест заново
+                  </button>
+               </div>
+               <ol class="test-end__results"></ol>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <p>Glazkov</p>
+         <p>Oleg</p>
+      </footer>
+   </div>
+   <script src="./js/header.js"></script>
+   <script src="./js/landing.js"></script>
+   <script src="./js/answers-data.js"></script>
+   <script src="./js/timer.js"></script>
+   <script src="./js/test_code.js"></script>
+</body>
+
+</html>

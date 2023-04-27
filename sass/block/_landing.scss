@@ -1,0 +1,233 @@
+
+.landing.block-hidden {
+   display: none;
+}
+.landing {
+
+   &__test-iq {
+      font-family: $land-font-family-base;
+      color: white;
+      background-image: $land-bg-image-one;
+      background-size: cover;
+      height: 100vh;
+   }
+
+   &__wrap {
+      margin-left: 30px;
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 93%;
+   }
+
+   &__up-title {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      padding-top: 80px;
+      margin-bottom: 25px;
+   }
+
+   &__title {
+      font-family: $land-font-family-second;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: $header-text-color;
+      text-transform: uppercase;
+   }
+
+   &__pic-iq {
+      width: 150px;
+   }
+
+   &__pic {
+      width: 100%;
+   }
+
+   &__btn {
+      margin-bottom: 22px;
+   }
+
+   &__text {
+      margin-bottom: 15px;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+      text-align: center;
+
+      &_yellow {
+         display: inline-block;
+         color: $header-text-color;
+      }
+
+      &_white {
+         display: inline-block;
+         color: $test-text-color;
+      }
+
+   }
+
+   &__btn-more {
+      margin-bottom: 11px;
+   }
+
+   &__btn-more-text {
+      display: block;
+      margin-top: 16px;
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 11px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      position: relative;
+   }
+
+   &__btn-more-text::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      background-image: url(./../../images/arrow.svg);
+      top: -55%;
+      left: 25px;
+      transform: translateY(-55%);
+   }
+
+   &__note {
+
+      background-image: $land-bg-image-two;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 340px;
+   }
+
+   &__note-text {
+      font-family: $land-font-family-second;
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0.05em;
+      text-align: center;
+   }
+
+   &__note-quotes {
+      display: block;
+      font-family: $task-btn-font-family;
+      font-size: 40px;
+
+      &_left {
+         display: block;
+         font-family: $task-btn-font-family;
+         font-size: 50px;
+         text-align: start;
+      }
+
+      &_right {
+         display: block;
+         font-family: $task-btn-font-family;
+         font-size: 50px;
+         text-align: end;
+      }
+   }
+
+   &__advice {
+      background: #F3F3F2;
+      height: 511px;
+   }
+
+   &__wrap-plus {
+      padding: 38px 11px 0px 11px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+   }
+
+   &__advice-text {
+      font-family: $land-font-family-base;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      margin-bottom: 38px;
+
+      &_bold {
+         font-weight: 900;
+      }
+
+      &_bold-up {
+         font-weight: 900;
+         text-transform: uppercase;
+      }
+   }
+
+   &__advice-btn {
+      margin-bottom: 40px;
+   }
+
+   &__go {
+      font-family: $land-font-family-th;
+      color: white;
+      background-image: $land-bg-image-th;
+      background-size: cover;
+      height: 97vh;
+   }
+
+   &__go-text {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 14px;
+
+      &_bold {
+         font-weight: 900;
+      }
+
+      &_bold-yellow {
+         color: $header-text-color;
+         font-weight: 900;
+      }
+   }
+
+   &__go-note {
+      // margin: 0 12px 0 12px;
+      background-color: #F3F3F2CC;
+      border-radius: 20px;
+      color: $land-btn-text-color-second;
+      margin-bottom: 47px;
+   }
+
+   &__go-note-text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      padding: 30px 15px 30px 15px;
+   }
+
+   &__go-btn {
+      margin-bottom: 52px;
+   }
+}
+
+@media screen and (max-width: 820px) {
+   .landing__test-iq {
+      height: 100vh;
+   }
+}
