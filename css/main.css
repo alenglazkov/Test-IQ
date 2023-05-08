@@ -92,7 +92,7 @@ progress.styled::-moz-progress-bar {
   padding-top: 12px;
   padding-bottom: 12px;
   text-transform: uppercase;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -121,7 +121,7 @@ progress.styled::-moz-progress-bar {
   padding-top: 12px;
   padding-bottom: 12px;
   text-transform: uppercase;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   color: white;
   font-size: 14px;
   font-weight: 700;
@@ -173,7 +173,7 @@ progress.styled::-moz-progress-bar {
   padding-top: 12px;
   padding-bottom: 12px;
   text-transform: uppercase;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   font-size: 14px;
   color: #8E8E8E;
   background: #DADADA;
@@ -204,7 +204,7 @@ progress.styled::-moz-progress-bar {
 }
 
 .header {
-  font-family: "Yeseva One";
+  font-family: "Roboto";
   font-size: 12px;
   color: #FFC700;
   letter-spacing: 0.05em;
@@ -390,9 +390,9 @@ progress.styled::-moz-progress-bar {
 }
 
 .landing__test-iq {
-  font-family: "PT Serif";
+  font-family: "Roboto";
   color: white;
-  background-image: url(./../../images/bg-test.jpg);
+  background-image: url(../images/bg-test.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -424,7 +424,7 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 25px;
 }
 .landing__title {
-  font-family: "Yeseva One";
+  font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   line-height: 35px;
@@ -477,20 +477,20 @@ progress.styled::-moz-progress-bar {
   width: 16px;
   height: 16px;
   position: absolute;
-  background-image: url(./../../images/arrow.svg);
+  background-image: url(../images/arrow.svg);
   top: -55%;
   left: 25px;
   -webkit-transform: translateY(-55%);
           transform: translateY(-55%);
 }
 .landing__note {
-  background-image: url(./../../images/ld-bg-article.jpg);
+  background-image: url(../images/ld-bg-article.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 340px;
 }
 .landing__note-text {
-  font-family: "Yeseva One";
+  font-family: "Roboto";
   color: white;
   font-size: 18px;
   font-weight: 400;
@@ -500,18 +500,18 @@ progress.styled::-moz-progress-bar {
 }
 .landing__note-quotes {
   display: block;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   font-size: 40px;
 }
 .landing__note-quotes_left {
   display: block;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   font-size: 50px;
   text-align: start;
 }
 .landing__note-quotes_right {
   display: block;
-  font-family: "Merriweather";
+  font-family: "Roboto";
   font-size: 50px;
   text-align: end;
 }
@@ -537,7 +537,7 @@ progress.styled::-moz-progress-bar {
   height: 100%;
 }
 .landing__advice-text {
-  font-family: "PT Serif";
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -556,9 +556,9 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 40px;
 }
 .landing__go {
-  font-family: "Merriweather";
+  font-family: "Roboto";
   color: white;
-  background-image: url(./../../images/bg-iq.jpg);
+  background-image: url(../images/bg-iq.jpg);
   background-size: cover;
   height: 97vh;
 }
@@ -610,11 +610,11 @@ progress.styled::-moz-progress-bar {
 }
 
 .task {
-  font-family: "PT Serif";
+  font-family: "Roboto";
   font-size: 18px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
-  background-image: url(./../../images/bg-test.jpg);
+  background-image: url(../images/bg-test.jpg);
   background-size: cover;
   height: 650px;
 }
@@ -825,9 +825,9 @@ progress.styled::-moz-progress-bar {
 }
 
 .results {
-  font-family: "PT Serif";
+  font-family: "Roboto";
   color: #FFFFFF;
-  background-image: url(./../../images/bg-test.jpg);
+  background-image: url(../images/bg-test.jpg);
   background-size: cover;
   height: 650px;
 }
@@ -897,7 +897,7 @@ progress.styled::-moz-progress-bar {
   margin: 0px 20px 20px 20px;
 }
 .test-end__title-resulte {
-  font-family: PT Serif;
+  font-family: 'Roboto';
   font-size: 15px;
   font-weight: 700;
   line-height: 16px;
@@ -907,7 +907,7 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 15px;
 }
 .test-end__title-fast {
-  font-family: PT Serif;
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -918,7 +918,7 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 12px;
 }
 .test-end__text {
-  font-family: PT Serif;
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -933,7 +933,7 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 15px;
 }
 .test-end__person-data-text {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 8px;
   font-weight: 500;
   line-height: 14px;
@@ -946,7 +946,7 @@ progress.styled::-moz-progress-bar {
   margin-bottom: 10px;
 }
 .test-end__timer-text {
-  font-family: PT Serif;
+  font-family: 'Roboto';
   font-size: 11px;
   font-weight: 400;
   line-height: 30px;
@@ -979,7 +979,7 @@ progress.styled::-moz-progress-bar {
   width: 29px;
   height: 29px;
   position: absolute;
-  background-image: url(./../../images/call-icon.svg);
+  background-image: url(../images/call-icon.svg);
   top: 50%;
   left: -44px;
   -webkit-transform: translateY(-50%);

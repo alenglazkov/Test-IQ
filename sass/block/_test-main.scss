@@ -262,7 +262,7 @@
    }
 
    &__title-resulte {
-      font-family: PT Serif;
+      font-family: 'Roboto';
       font-size: 15px;
       font-weight: 700;
       line-height: 16px;
@@ -273,7 +273,7 @@
    }
 
    &__title-fast {
-      font-family: PT Serif;
+      font-family: 'Roboto';
       font-size: 18px;
       font-weight: 700;
       line-height: 22px;
@@ -286,7 +286,7 @@
    }
 
    &__text {
-      font-family: PT Serif;
+      font-family: 'Roboto';
       font-size: 14px;
       font-weight: 400;
       line-height: 18px;
@@ -304,7 +304,7 @@
    }
 
    &__person-data-text {
-      font-family: Roboto;
+      font-family: 'Roboto';
       font-size: 8px;
       font-weight: 500;
       line-height: 14px;
@@ -319,7 +319,7 @@
    }
 
    &__timer-text {
-      font-family: PT Serif;
+      font-family: 'Roboto';
       font-size: 11px;
       font-weight: 400;
       line-height: 30px;
@@ -357,7 +357,7 @@
       width: 29px;
       height: 29px;
       position: absolute;
-      background-image: url(./../../images/call-icon.svg);
+      background-image: url(../images/call-icon.svg);
       top: 50%;
       left: -44px;
       transform: translateY(-50%);
